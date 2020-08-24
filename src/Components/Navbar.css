@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Open+Sans:wght@300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+header {
+  background-size: cover;
+  background-color: rgb(22, 21, 21);
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.95;
+  clip-path: polygon(0 0, 100% 0, 100% 89%, 0 70%);
+}
+.logo {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: rgb(224, 224, 224);
+}
+.nav-header {
+  display: flex;
+  padding: 30px;
+}
+.main-nav {
+  margin-left: 40px;
+  float: right;
+  margin-left: 700px;
+}
+.main-nav li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 90%;
+  font-family: "Open Sans", sans-serif;
+}
+.main-nav li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(224, 224, 224);
+  font-size: 18px;
+}
+.main-nav li a:hover {
+  border-bottom: 2px solid #bf55ec;
+}
+.main-content {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(224, 224, 224);
+  padding-top: 17vh;
+}
+.intro h4 {
+  padding-top: 20px;
+  font-size: 24px;
+}
+.intro h2 {
+  font-size: 58px;
+}
+.color {
+  animation: colorChange 1s infinite;
+}
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  5% {
+    color: blue;
+  }
+  20% {
+    color: crimson;
+  }
+  25% {
+    color: #bf55ec;
+  }
+  50% {
+    color: aqua;
+  }
+  100% {
+    color: green;
+  }
+}
