@@ -20,6 +20,10 @@ class Navbar extends Component {
                 <Link to="/About">About</Link>
               </li>
               <li>
+                {/* <a href="/Card">Skills</a> */}
+                <Link to="/Skills">Skills</Link>
+              </li>
+              <li>
                 {/* <a href="/Contact">contact me</a> */}
                 <Link to="/Contact">Contact</Link>
               </li>

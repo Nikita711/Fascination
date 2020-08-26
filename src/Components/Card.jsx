@@ -15,7 +15,7 @@ const Card = (props) => {
           voluptatibus voluptatum natus aperiam maiores dolore maxime earum nemo
           blanditiis, nam ducimus, quo sunt.
         </p>
-        <a href="#" className="btn btn-outline-success">
+        <a href="./Skills" className="btn btn-outline-success">
           Click For More
         </a>
       </div>
