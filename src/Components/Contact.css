@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
+
 .contact-jumbotron {
-  color: white;
+  background-color: rgb(32, 24, 24);
+}
+.contact-head {
+  color: Red;
+  font-family: "Balsamiq Sans", cursive;
+  padding-left: 12px;
+  font-size: 46px;
+}
+.sub-head {
+  font-family: "Balsamiq Sans", cursive;
+  padding-left: 12px;
+  font-size: 44px;
 }
