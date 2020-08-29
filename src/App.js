@@ -6,8 +6,8 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Error from "./Components/Error";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
 import Cards from "./Components/Cards";
+import Resume from "./Components/Resume";
 
 class App extends Component {
   render() {
@@ -17,15 +17,15 @@ class App extends Component {
           <div>
             <Navbar />
             <Switch>
-              <Route path="/Projects" exact component={Projects} />
+              <Route path="/Projects" component={Projects} />
               <Route path="/About" component={About} />
               <Route path="/Contact" component={Contact} />
               <Route path="/Skills" component={Cards} />
+              <Route path="/Resume" Component={Resume} />
               <Route path="#" component={Error} />
             </Switch>
           </div>
         </BrowserRouter>
-        <Footer />
       </React.Fragment>
     );
   }

@@ -14,7 +14,7 @@ class Navbar extends Component {
               <ul>
                 <li>
                   {/* <a href="/Home">home</a> */}
-                  <Link to="/Projects">Projects</Link>
+                  <Link to="/Projects">Services</Link>
                 </li>
                 <li>
                   {/* <a href="/About">about</a> */}
@@ -30,7 +30,7 @@ class Navbar extends Component {
                 </li>
                 <li>
                   {/* <a href="#">resume</a> */}
-                  <Link to="/">Resume</Link>
+                  <Link to="/Resume">Resume</Link>
                 </li>
               </ul>
             </div>

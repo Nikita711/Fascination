@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import Footer from "./Footer";
 
 const Projects = () => {
   return (
@@ -96,6 +97,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </React.Fragment>
   );
 };
