@@ -21,7 +21,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-pie-chart"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Web Design</h4>
                 </a>
                 <p>
@@ -33,7 +33,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-laptop-phone"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Web Development</h4>
                 </a>
                 <p>
@@ -45,7 +45,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-camera"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Photography</h4>
                 </a>
                 <p>
@@ -58,7 +58,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-picture"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Clipping Path</h4>
                 </a>
                 <p>
@@ -71,7 +71,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-tablet"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Apps Interface</h4>
                 </a>
                 <p>
@@ -83,7 +83,7 @@ const Projects = () => {
             <div class="col-lg-4 col-md-6">
               <div class="single-services">
                 <span class="lnr lnr-rocket"></span>
-                <a href="#">
+                <a href="/">
                   <h4>Graphic Design</h4>
                 </a>
                 <p>

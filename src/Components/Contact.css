@@ -6,11 +6,18 @@
 .contact-head {
   color: Red;
   font-family: "Balsamiq Sans", cursive;
-  padding-left: 12px;
+  padding-top: 10px;
+  padding-left: 35px;
   font-size: 46px;
+  font-weight: 800;
 }
 .sub-head {
   font-family: "Balsamiq Sans", cursive;
-  padding-left: 12px;
+  padding-left: 35px;
   font-size: 44px;
+  padding-bottom: 20px;
+}
+.pb-3 {
+  font-weight: 700;
+  font-size: 60px;
 }

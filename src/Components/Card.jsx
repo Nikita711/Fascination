@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className="card text-center">
       <div className="overflow">
-        <img src={img1} alt="image 1" className="card-img-top" />
+        <img src={img1} alt="this should come " className="card-img-top" />
       </div>
       <div className="card-body text-dark">
         <p>
