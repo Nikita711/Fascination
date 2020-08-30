@@ -5,23 +5,23 @@ import Footer from "./Footer";
 const Projects = () => {
   return (
     <React.Fragment>
-      <section class="services-area section-gap">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="menu-content  col-lg-7">
-              <div class="title text-center">
-                <h1 class="mb-10">My Offered Services</h1>
-                <p class="title-para">
+      <section className="services-area section-gap">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="menu-content  col-lg-7">
+              <div className="title text-center">
+                <h1 className="mb-10">My Offered Services</h1>
+                <p className="title-para">
                   At about this time of year, some months after New Year’s
                   resolutions have been made and kept, or made and neglected.
                 </p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-pie-chart"></span>
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-pie-chart"></span>
                 <a href="/">
                   <h4>Web Design</h4>
                 </a>
@@ -31,9 +31,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-laptop-phone"></span>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-laptop-phone"></span>
                 <a href="/">
                   <h4>Web Development</h4>
                 </a>
@@ -43,9 +43,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-camera"></span>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-camera"></span>
                 <a href="/">
                   <h4>Photography</h4>
                 </a>
@@ -56,9 +56,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-picture"></span>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-picture"></span>
                 <a href="/">
                   <h4>Clipping Path</h4>
                 </a>
@@ -69,9 +69,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-tablet"></span>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-tablet"></span>
                 <a href="/">
                   <h4>Apps Interface</h4>
                 </a>
@@ -81,9 +81,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-services">
-                <span class="lnr lnr-rocket"></span>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-services">
+                <span className="lnr lnr-rocket"></span>
                 <a href="/">
                   <h4>Graphic Design</h4>
                 </a>
