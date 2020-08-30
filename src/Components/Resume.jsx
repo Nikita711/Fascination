@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 
-import samplePDF from "./dummy.pdf";
+import samplePDF from "./Resume.pdf";
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
